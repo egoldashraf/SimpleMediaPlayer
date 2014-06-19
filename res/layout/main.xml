@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:id="@+id/listView"
+            tools:listitem="@layout/adapter_songs"
+            android:layout_weight="1"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonPrevious"
+                android:text="Prev"
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Stop"
+                android:id="@+id/buttonStop"
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Play"
+                android:id="@+id/buttonPlay"
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Pause"
+                android:id="@+id/buttonPause"
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:id="@+id/buttonNext"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:clickable="false"/>
+
+</LinearLayout>
+

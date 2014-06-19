@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.parsigostar.simple_media_player"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="8"/>
+    <application android:label="@string/app_name"
+            android:name=".G">
+        <activity
+                android:name="ActivityMain"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".listeners.ListenerNextButton"></activity>
+        <activity android:name=".listeners.ListenerListViewItemSelected"></activity>
+        <activity android:name=".listeners.ListenerPauseButton"></activity>
+        <activity android:name=".listeners.ListenerPlayButton"></activity>
+        <activity android:name=".listeners.ListenerPreviousButton"></activity>
+        <activity android:name=".listeners.ListenerStopButton"></activity>
+    </application>
+</manifest> 
