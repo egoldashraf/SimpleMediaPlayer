@@ -14,12 +14,15 @@ import java.util.List;
  * Created by Mohammad on 6/19/14.
  */
 public class AdapterSongs extends ArrayAdapter<StructSong> {
+
     public AdapterSongs(List<StructSong> objects) {
+
         super(G.context, R.layout.adapter_songs, objects);
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
         ViewHolder holder;
         StructSong item = getItem(position);
 
@@ -37,13 +40,15 @@ public class AdapterSongs extends ArrayAdapter<StructSong> {
     }
 
     private static class ViewHolder {
+
         public ViewGroup viewGroup;
 
         public TextView textView;
 
         public ViewHolder(View view) {
-            textView=(TextView)view.findViewById(R.id.textView);
-            viewGroup=(ViewGroup)view.findViewById(R.id.viewGroup);
+
+            textView = (TextView) view.findViewById(R.id.textView);
+            viewGroup = (ViewGroup) view.findViewById(R.id.viewGroup);
         }
 
         public void fill(final StructSong item, final int position) {
@@ -54,6 +59,7 @@ public class AdapterSongs extends ArrayAdapter<StructSong> {
 
                 @Override
                 public void onClick(View v) {
+
                     G.mediaManager.setCurrentPosition(position);
                 }
             });

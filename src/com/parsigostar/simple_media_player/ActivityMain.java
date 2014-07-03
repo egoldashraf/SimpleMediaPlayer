@@ -13,21 +13,28 @@ import com.parsigostar.simple_media_player.listeners.*;
 public class ActivityMain extends Activity {
 
     public SeekBar seekBar;
+
     public Button buttonPrevious;
+
     public Button buttonNext;
+
     public Button buttonPlay;
+
     public Button buttonPause;
+
     public Button buttonStop;
+
     public ListView listView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
         UiParser.parse(this);
 
-        G.mediaManager = new MediaManager(getAssets(),seekBar);
+        G.mediaManager = new MediaManager(getAssets(), seekBar);
 
         FakeData.init();
 

@@ -18,6 +18,7 @@ import java.io.IOException;
  * Created by Mohammad on 6/19/14.
  */
 public class MediaManager {
+
     private MediaPlayer mediaPlayer;
 
     private AssetManager assets;
@@ -26,6 +27,7 @@ public class MediaManager {
 
     private Runnable UpdateSongTime = new Runnable() {
         public void run() {
+
             int startTime = mediaPlayer.getCurrentPosition();
 
             if (seekBar != null)
@@ -99,8 +101,7 @@ public class MediaManager {
 
         mediaPlayer.start();
 
-        if (seekBar != null)
-        {
+        if (seekBar != null) {
             seekBar.setMax(mediaPlayer.getDuration());
 
             G.handler.postDelayed(UpdateSongTime, 100);

@@ -58,7 +58,7 @@ public class UiParser {
                 View control = cachedActivity.controls.containsKey(key) ? cachedActivity.controls
                         .get(key) : null;
 
-                if (control==null)
+                if (control == null)
 
                     continue;
 

@@ -7,17 +7,19 @@ import android.content.res.Resources;
 import android.view.View;
 
 public class UiCache {
-	public UiCache() {
-		controls = new Hashtable<String, View>();
-		fields = new Hashtable<String, Field>();
-	}
 
-	public Class<?> activity;
+    public UiCache() {
 
-	public View view;
+        controls = new Hashtable<String, View>();
+        fields = new Hashtable<String, Field>();
+    }
 
-	public Hashtable<String, Field> fields;
+    public Class<?> activity;
 
-	public Hashtable<String, View> controls;
+    public View view;
+
+    public Hashtable<String, Field> fields;
+
+    public Hashtable<String, View> controls;
 
 }
