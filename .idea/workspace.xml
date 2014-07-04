@@ -132,8 +132,8 @@
       <file leaf-file-name="AdapterSongs.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/parsigostar/simple_media_player/data/AdapterSongs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30050504" vertical-offset="629" max-vertical-offset="1054">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.21464646" vertical-offset="459" max-vertical-offset="1037">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -219,13 +219,13 @@
         <option value="$PROJECT_DIR$/src/com/parsigostar/simple_media_player/data/StructSong.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/parsigostar/simple_media_player/helper/FileManager.java" />
-        <option value="$PROJECT_DIR$/src/com/parsigostar/simple_media_player/data/AdapterSongs.java" />
         <option value="$PROJECT_DIR$/src/com/parsigostar/simple_media_player/data/FakeData.java" />
         <option value="$PROJECT_DIR$/src/com/parsigostar/simple_media_player/listeners/ListenerStopButton.java" />
         <option value="$PROJECT_DIR$/src/com/parsigostar/simple_media_player/helper/UiParser.java" />
         <option value="$PROJECT_DIR$/src/com/parsigostar/simple_media_player/G.java" />
         <option value="$PROJECT_DIR$/src/com/parsigostar/simple_media_player/ActivityMain.java" />
         <option value="$PROJECT_DIR$/src/com/parsigostar/simple_media_player/helper/MediaManager.java" />
+        <option value="$PROJECT_DIR$/src/com/parsigostar/simple_media_player/data/AdapterSongs.java" />
       </list>
     </option>
   </component>
@@ -689,12 +689,12 @@
       <workItem from="1403138551586" duration="7475000" />
       <workItem from="1403185049523" duration="613000" />
       <workItem from="1403536363894" duration="908000" />
-      <workItem from="1404467225544" duration="525000" />
+      <workItem from="1404467225544" duration="712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22504000" />
+    <option name="totallyTimeSpent" value="22691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="842" extended-state="0" />
@@ -715,7 +715,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37042254" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37042254" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1179,8 +1179,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parsigostar/simple_media_player/data/AdapterSongs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30050504" vertical-offset="629" max-vertical-offset="1054">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.21464646" vertical-offset="459" max-vertical-offset="1037">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>

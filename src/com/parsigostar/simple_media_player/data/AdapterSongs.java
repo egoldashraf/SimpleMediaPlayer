@@ -47,8 +47,7 @@ public class AdapterSongs extends ArrayAdapter<StructSong> {
 
         public ViewHolder(View view) {
 
-            textView = (TextView) view.findViewById(R.id.textView);
-            viewGroup = (ViewGroup) view.findViewById(R.id.viewGroup);
+            UiParser.parse(G.context,this,view);
         }
 
         public void fill(final StructSong item, final int position) {
