@@ -1,16 +1,11 @@
 package com.parsigostar.simple_media_player.helper;
 
-import android.app.Activity;
-import android.content.res.AssetFileDescriptor;
-import android.content.res.AssetManager;
+import android.content.res.*;
 import android.media.MediaPlayer;
-import android.net.Uri;
 import android.util.Log;
 import android.widget.SeekBar;
-import com.parsigostar.simple_media_player.ActivityMain;
 import com.parsigostar.simple_media_player.G;
-import com.parsigostar.simple_media_player.data.FakeData;
-import com.parsigostar.simple_media_player.data.StructSong;
+import com.parsigostar.simple_media_player.data.*;
 
 import java.io.IOException;
 
@@ -26,6 +21,7 @@ public class MediaManager {
     private SeekBar seekBar;
 
     private Runnable UpdateSongTime = new Runnable() {
+
         public void run() {
 
             int startTime = mediaPlayer.getCurrentPosition();
@@ -102,6 +98,7 @@ public class MediaManager {
         mediaPlayer.start();
 
         if (seekBar != null) {
+
             seekBar.setMax(mediaPlayer.getDuration());
 
             G.handler.postDelayed(UpdateSongTime, 100);

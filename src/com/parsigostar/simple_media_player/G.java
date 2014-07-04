@@ -1,6 +1,6 @@
 package com.parsigostar.simple_media_player;
 
-import android.app.Application;
+import android.app.*;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Environment;
@@ -15,8 +15,6 @@ import java.io.File;
  */
 public class G extends Application {
 
-    public static final int DOWNLOAD_BUFFER_SIZE = 8 * 1024;
-
     public static Context context;
 
     public static LayoutInflater inflater;
@@ -25,11 +23,7 @@ public class G extends Application {
 
     public static MediaManager mediaManager;
 
-    public static Resources resources;
-
-    public static String DIR_SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath();
-
-    public static String DIR_APP = DIR_SDCARD + "/simple_media_player";
+    public static String packageName="com.parsigostar.simple_media_player";
 
     @Override
     public void onCreate() {
@@ -41,10 +35,6 @@ public class G extends Application {
         inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
         handler = new Handler();
-
-        resources = context.getResources();
-
-        new File(DIR_APP).mkdirs();
     }
 
 }

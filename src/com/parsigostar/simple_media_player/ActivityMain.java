@@ -30,6 +30,7 @@ public class ActivityMain extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.main);
 
         UiParser.parse(this);
@@ -39,12 +40,17 @@ public class ActivityMain extends Activity {
         FakeData.init();
 
         listView.setAdapter(FakeData.adapter);
+
         listView.setOnItemSelectedListener(new ListenerListViewItemSelected());
 
         buttonPrevious.setOnClickListener(new ListenerPreviousButton());
+
         buttonNext.setOnClickListener(new ListenerNextButton());
+
         buttonPlay.setOnClickListener(new ListenerPlayButton());
+
         buttonPause.setOnClickListener(new ListenerPauseButton());
+
         buttonStop.setOnClickListener(new ListenerStopButton());
 
         G.mediaManager.setCurrentPosition(0);
